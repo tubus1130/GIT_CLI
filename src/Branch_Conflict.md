@@ -9,7 +9,7 @@
 git log --all --graph --oneline
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](img/log_graph.png)
 
 ---
 
@@ -23,7 +23,7 @@ git branch
 git branch 브랜치명
 ```
 
-![img_2.png](img_2.png)
+![img_2.png](img/branch생성.png)
 
 ---
 
@@ -34,8 +34,8 @@ git branch 브랜치명
 git checkout 브랜치명
 ```
 
-![img_3.png](img_3.png)
+![img_3.png](img/branch_checkout.png)
 
 #### 각 브랜치마다 커밋 만들고 로그확인
 
-![img_4.png](img_4.png)
+![img_4.png](img/log_graph2.png)
