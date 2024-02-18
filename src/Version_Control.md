@@ -43,7 +43,7 @@ git add .
 ```
 git commit -m "메시지명"
 
-# add + commit(추적중인 파일만 가능)
+# add + commit(추적중인 파일만 가능)(스테이지 영역에 이미 올라간 파일)
 git commit -am "메시지명"
 ```
 
@@ -59,14 +59,14 @@ git log
 ![img_6.png](img/log.png)
 
 ```
-# 커밋된 파일보기
+# git log + 커밋된 파일보기
 git log --stat
 ```
 
 ![img_7.png](img/log_stat.png)
 
 ```
-# 커밋된 파일 수정내용 보기
+# git log + 커밋된 파일 수정내용 보기
 git log -p
 ```
 
@@ -127,3 +127,5 @@ git revert 커밋아이디
 - 한번에 revert 해버리면 충돌발생
 
 ![img_7.png](img/reset_revert.png)
+
+[revert reset 비교 참고사이트](https://www.yagom-academy.kr/fac3e1ea-b792-420a-a1e3-d95afca093c1)
