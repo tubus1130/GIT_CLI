@@ -82,3 +82,17 @@ git merge 병합하고 싶은 브랜치명
 
 - here, there => 브랜치
 - base => 브랜치들의 뿌리 커밋
+
+#### 💭 merge 도구
+- p4merge
+
+```
+# 설정
+git config --global merge.tool p4merge
+git config --global mergetool.p4merge.path 'C:\Program Files\Perforce\p4merge.exe'
+
+# 실행
+git mergetool
+```
+
+![img.png](img/p4merge.png)
