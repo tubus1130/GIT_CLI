@@ -96,3 +96,27 @@ git mergetool
 ```
 
 ![img.png](img/p4merge.png)
+
+---
+
+#### 💭 checkout 의미
+
+![img.png](img/head.png)
+
+- `checkout`은 HEAD가 가리키는 것을 변경하는 것(제어)
+- HEAD는 기본적으로 브랜치를 가리키게 되지만, COMMIT 버전을 가리킬 수 도 있음. 이상태를 `detached`라고 부름
+
+#### 💭 checkout, reset 비교
+
+![img.png](img/checkout, reset.png)
+
+#### checkout
+- checkout은 HEAD를 바꾸는 것
+- `change`
+- checkout master, checkout google 처럼 주로 브랜치를 가리킴
+
+#### reset
+
+- reset은 브랜치를 바꾸는 것
+- google이 가리키는 버전이 3에서 2로 바뀌게 되어, 3의 연결이 끊기는 `delete`느낌
+- reset 1, reset 2 처럼 주로 버전의 이름을 가리킴
