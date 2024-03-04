@@ -108,7 +108,7 @@ git mergetool
 
 #### 💭 checkout, reset 비교
 
-![img.png](img/checkout, reset.png)
+![img.png](img/checkout_reset.png)
 
 #### checkout
 - checkout은 HEAD를 바꾸는 것
