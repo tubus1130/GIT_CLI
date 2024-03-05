@@ -5,18 +5,16 @@
 #### 💭 Git 무료 호스팅 추천
 
 - Github
-- Gitlab
+- GitLab
 
 #### 💭 지역저장소 <-> 원격저장소 연결
-
-![img_1.png](img_1.png)
 
 ```
 git remote add origin https://github.com/tubus1130/GIT_CLI.git
 ```
 
 - 지역저장소는 기본적으로 여러개의 원격저장소와 연결될 수 있음
-- origin은 별명(다른이름으로 해도되는데, 보통은 메인은 origin이라고 사용함)
+- origin은 별명(다른이름으로 해도되는데, 보통 메인은 origin이라고 사용함)
 
 #### 💭 연결되어있는 원격저장소 검색
 
@@ -24,7 +22,7 @@ git remote add origin https://github.com/tubus1130/GIT_CLI.git
 git remote -v
 ```
 
-![img.png](img.png)
+![img.png](img/git_remote.png)
 
 #### 💭 push
 
@@ -54,4 +52,6 @@ git pull
 ```
 
 - 원격저장소의 최신상태를 지역저장소로 받아옴
-- 작업 시작할때는 언제나 git pull 하고 작업이 끝낸뒤 git push 하는 습관을 들이는게 좋음
+- 작업 시작할때는 언제나 git pull 하고, 작업이 끝낸뒤 git push 하는 습관을 들이는게 좋음
+
+![img_1.png](img/push_pull.png)
