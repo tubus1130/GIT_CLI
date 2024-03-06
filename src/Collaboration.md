@@ -14,7 +14,7 @@ git fetch
 ![img.png](img/FETCH.png)
 
 - 신중하게 데이터를 pull 하고 싶을 때 사용
-- fetch의 결과 최신커밋보다 뒤쳐짐
+- fetch의 결과 지역저장소의 커밋은 최신커밋보다 뒤쳐짐
 
 ```
 # fetch한 버전과 내 현재버전을 합침
